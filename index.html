@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadgetMarket.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GadgetMarket</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Welcome to GadgetMarket</h2>
+        <p>Best Gadgets at the Best Prices!</p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Smartphone">
+            <h2>Smartphone</h2>
+            <p>$499.99</p>
+            <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Laptop">
+            <h2>Laptop</h2>
+            <p>$999.99</p>
+            <button onclick="addToCart('Laptop', 999.99)">Add to Cart</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
